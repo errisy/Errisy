@@ -1,0 +1,145 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Errisy
+</name>
+</assembly>
+<members>
+<member name="M:Errisy.BriefButton.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Errisy.BriefButton">
+	<summary>
+BriefButton
+</summary>
+</member><member name="M:Errisy.CloseButton.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Errisy.CloseButton">
+	<summary>
+CloseButton
+</summary>
+</member><member name="M:Errisy.MultipleCanvasItemsControl.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Errisy.MultipleCanvasItemsControl">
+	<summary>
+MultipleCanvasItemsControl
+</summary>
+</member><member name="M:Errisy.RoundTabItem.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Errisy.RoundTabItem">
+	<summary>
+RoundTabItem
+</summary>
+</member><member name="M:Errisy.ClosableTabItem.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:Errisy.EditableLabel.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Errisy.EditableLabel">
+	<summary>
+EditableLabel
+</summary>
+</member><member name="M:Errisy.CanvasItemsControl.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Errisy.CanvasItemsControl">
+	<summary>
+CanvasItemsControl
+</summary>
+</member><member name="M:Errisy.DirectCanvasItemsControl.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:Errisy.DirectCanvasItemsControl">
+	<summary>
+DirectCanvasItemsControl
+</summary>
+</member><member name="M:Errisy.XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateInstance(System.Type,System.Globalization.CultureInfo)">
+	<summary>
+CreateInstance
+</summary>
+</member><member name="M:Errisy.XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)">
+	<summary>
+GetPropertyValue
+</summary>
+</member><member name="M:Errisy.XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)">
+	<summary>
+SetPropertyValue
+</summary>
+</member><member name="M:Errisy.XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)">
+	<summary>
+CreateDelegate
+</summary>
+</member><member name="M:Errisy.XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)">
+	<summary>
+AddEventHandler
+</summary>
+</member><member name="T:Errisy.XamlGeneratedNamespace.GeneratedInternalTypeHelper">
+	<summary>
+GeneratedInternalTypeHelper
+</summary>
+</member><member name="F:Errisy.DirectItemsControl.loadedTemplate">
+	<summary>
+ 加载的ControlTemplate
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Errisy.DirectItemsControl.loadedItemsPresenter">
+	<summary>
+ 用于加载Panel
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Errisy.ClosableTabControl">
+	<summary>
+ 默认情况下用ClosableTabItem作为包装单位的TabControl
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Errisy.ItemGenerator.GetViewForItem(System.Object@)">
+	<summary>
+ 由于Virtualization，不保证View一定会存在。
+ </summary>
+	<param name="item"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Errisy.ClosableTabItem">
+	<summary>
+ 一个可以点击叉来关闭的TabItem
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Errisy.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Errisy.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Errisy.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:Errisy.MultipleItemsControl.loadedTemplate">
+	<summary>
+ 加载的ControlTemplate
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Errisy.MultipleItemsControl.loadedItemsPresenter">
+	<summary>
+ 用于加载Panel
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
