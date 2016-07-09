@@ -16,6 +16,7 @@
         SetValue(IsCheckedProperty, Not IsChecked)
         Dim IsCheckedBinding = GetBindingExpression(IsCheckedProperty)
         IsCheckedBinding.UpdateSource()
+        MyBase.RaiseEvent(New RoutedEventArgs(TickChangedEvent, Me))
     End Sub
     Public ReadOnly Property TickWidth As GridLength
         Get
@@ -34,4 +35,24 @@
         SetValue(TickWidthPropertyKey, New GridLength(aw, GridUnitType.Pixel))
         MyBase.OnRenderSizeChanged(sizeInfo)
     End Sub
+
+    Public Custom Event TickChanged As RoutedEventHandler
+        AddHandler(ByVal value As RoutedEventHandler)
+            Me.AddHandler(TickChangedEvent, value)
+        End AddHandler
+
+        RemoveHandler(ByVal value As RoutedEventHandler)
+            Me.RemoveHandler(TickChangedEvent, value)
+        End RemoveHandler
+
+        RaiseEvent(ByVal sender As Object, ByVal e As RoutedEventArgs)
+            Me.RaiseEvent(e)
+        End RaiseEvent
+    End Event
+
+    Public Shared ReadOnly TickChangedEvent As RoutedEvent =
+                      EventManager.RegisterRoutedEvent("TickChanged",
+                      RoutingStrategy.Bubble,
+                      GetType(RoutedEventHandler), GetType(TickBoxBase))
+
 End Class
